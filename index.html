@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Card</title>
+  </head>
+  <body class="bg-gray-700">
+    <div class="h-screen flex items-center justify-center drop-shadow-md">
+      <div>
+        <div class="w-80 bg-gray-600 p-8 rounded-lg">
+          <!-- svg div -->
+          <div class="flex justify-between items-center">
+            <span class="font-semibold text-white">FACEBOOK</span>
+            <div class="hover:bg-gray-500 cursor-pointer p-3 rounded-lg">
+              <svg
+                class="w-6 h-6 text-white"
+                aria-hidden="true"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <!-- this is div for image -->
+          <div class="flex justify-center">
+            <img class="w-28 h-28 m-2" src="./images/Round_img.jpeg" alt="" />
+          </div>
+          <!-- div for text -->
+          <div class="p-2">
+            <p class="text-center text-white font-2xl font-semibold">
+              ADARSH KUMAR
+            </p>
+            <p class="text-center text-gray-400">Student</p>
+          </div>
+          <!-- div for buttons -->
+          <div class="p-3">
+            <button
+              class="bg-blue-700 hover:bg-blue-800 text-white px-3 py-2 rounded-md font-semibold"
+            >
+              Add Friend
+            </button>
+            <button
+              class="border border-gray-400 px-3 py-2 rounded-md ml-2 text-white hover:bg-gray-500 font-semibold"
+            >
+              Message
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
